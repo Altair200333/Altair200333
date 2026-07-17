@@ -26,3 +26,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           config_timezone: Asia/Novosibirsk
+          retries: 3
+          retries_delay: 60
+          plugins_errors_fatal: yes
