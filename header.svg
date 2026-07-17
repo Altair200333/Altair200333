@@ -110,15 +110,15 @@
   <text x="400" y="94" class="heading">Full-stack Helldiver</text>
   <text x="400" y="116" class="body muted">deployed on the bug frontline</text>
 
-  <text x="400" y="145" class="small muted">mission</text>
-  <text x="498" y="145" class="small">squash bugs</text>
-  <text x="400" y="165" class="small muted">uptime</text>
-  <text x="498" y="165" class="small green">24/7</text>
-  <text x="620" y="165" class="small muted">timezone</text>
-  <text x="704" y="165" class="small yellow">UTC+7</text>
+  <text x="400" y="141" class="small muted">mission</text>
+  <text x="498" y="141" class="small">squash bugs</text>
+  <text x="400" y="162" class="small muted">uptime</text>
+  <text x="498" y="162" class="small green">24/7</text>
+  <text x="400" y="183" class="small muted">timezone</text>
+  <text x="498" y="183" class="small yellow">UTC+7</text>
 
-  <line x1="20" y1="197.5" x2="810" y2="197.5" stroke="var(--line)"/>
-  <text x="40" y="224" class="small green">$ cat /etc/motd</text>
-  <text x="40" y="250" class="body">managed democracy, unmanaged memory</text>
-  <rect x="333" y="239" width="8" height="14" rx="1" fill="var(--text)" opacity=".82"/>
+  <line x1="20" y1="207.5" x2="810" y2="207.5" stroke="var(--line)"/>
+  <text x="40" y="234" class="small green">$ cat /etc/motd</text>
+  <text x="40" y="260" class="body">managed democracy, unmanaged memory</text>
+  <rect x="333" y="249" width="8" height="14" rx="1" fill="var(--text)" opacity=".82"/>
 </svg>
