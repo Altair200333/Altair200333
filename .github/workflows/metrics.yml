@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - ".github/workflows/metrics.yml"
+      - ".github/scripts/generate_habits.py"
 
 jobs:
   github-metrics:
@@ -29,3 +30,47 @@ jobs:
           retries: 3
           retries_delay: 60
           plugins_errors_fatal: yes
+
+  coding-habits:
+    name: Coding habits
+    needs: github-metrics
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Generate coding habits
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          HABITS_USER: Altair200333
+          HABITS_DAYS: 30
+          HABITS_MAX_COMMITS: 1000
+          HABITS_TIMEZONE: Asia/Novosibirsk
+          HABITS_EXCLUDE_REPOS: Altair200333/Altair200333
+          HABITS_OUTPUT: metrics.habits.svg
+        run: python .github/scripts/generate_habits.py
+
+      - name: Commit coding habits
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics.habits.svg
+          if git diff --cached --quiet; then
+            echo "Coding habits are already up to date"
+            exit 0
+          fi
+          git commit -m "Update coding habits metrics"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            git pull --rebase origin main
+          done
+          exit 1
