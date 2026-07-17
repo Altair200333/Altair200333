@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="450" viewBox="0 0 390 450" role="img" aria-labelledby="title desc">
+  <title id="title">ne0ck mobile terminal profile header</title>
+  <desc id="desc">Pixel ne0ck wordmark above a terminal status: Full-stack Helldiver deployed on the bug frontline.</desc>
+  <style>
+    :root {
+      --bg: #f6f8fa;
+      --bar: #ffffff;
+      --border: #d0d7de;
+      --text: #24292f;
+      --muted: #57606a;
+      --blue: #0969da;
+      --green: #1a7f37;
+      --yellow: #9a6700;
+      --red: #cf222e;
+      --line: #d8dee4;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161b22;
+        --bar: #0d1117;
+        --border: #30363d;
+        --text: #c9d1d9;
+        --muted: #8b949e;
+        --blue: #58a6ff;
+        --green: #3fb950;
+        --yellow: #d29922;
+        --red: #f85149;
+        --line: #30363d;
+      }
+    }
+    text {
+      font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+      font-weight: 400;
+      fill: var(--text);
+    }
+    .tiny { font-size: 11px; }
+    .small { font-size: 12px; }
+    .body { font-size: 13px; }
+    .heading { font-size: 15px; font-weight: 500; }
+    .muted { fill: var(--muted); }
+    .green { fill: var(--green); }
+    .yellow { fill: var(--yellow); }
+  </style>
+
+  <rect x="1" y="1" width="388" height="448" rx="9" fill="var(--bg)" stroke="var(--border)"/>
+  <path d="M10 1h370a9 9 0 0 1 9 9v27H1V10a9 9 0 0 1 9-9Z" fill="var(--bar)"/>
+  <line x1="1" y1="37.5" x2="389" y2="37.5" stroke="var(--border)"/>
+
+  <circle cx="18" cy="19" r="4" fill="var(--red)" opacity=".85"/>
+  <circle cx="32" cy="19" r="4" fill="var(--yellow)" opacity=".85"/>
+  <circle cx="46" cy="19" r="4" fill="var(--green)" opacity=".85"/>
+  <text x="64" y="23" class="tiny muted">ne0ck: ~</text>
+  <text x="364" y="23" class="tiny green" text-anchor="end">● ready</text>
+
+  <text x="24" y="66" class="small green">$ cat banner.txt</text>
+  <g fill="var(--blue)">
+    <rect x="58" y="102" width="36" height="9" rx="1"/>
+    <rect x="58" y="111" width="9" height="9" rx="1"/>
+    <rect x="94" y="111" width="9" height="9" rx="1"/>
+    <rect x="58" y="120" width="9" height="9" rx="1"/>
+    <rect x="94" y="120" width="9" height="9" rx="1"/>
+    <rect x="58" y="129" width="9" height="9" rx="1"/>
+    <rect x="94" y="129" width="9" height="9" rx="1"/>
+    <rect x="58" y="138" width="9" height="9" rx="1"/>
+    <rect x="94" y="138" width="9" height="9" rx="1"/>
+    <rect x="123" y="102" width="27" height="9" rx="1"/>
+    <rect x="114" y="111" width="9" height="9" rx="1"/>
+    <rect x="150" y="111" width="9" height="9" rx="1"/>
+    <rect x="114" y="120" width="45" height="9" rx="1"/>
+    <rect x="114" y="129" width="9" height="9" rx="1"/>
+    <rect x="123" y="138" width="27" height="9" rx="1"/>
+    <rect x="179" y="84" width="27" height="9" rx="1"/>
+    <rect x="170" y="93" width="9" height="9" rx="1"/>
+    <rect x="206" y="93" width="9" height="9" rx="1"/>
+    <rect x="170" y="102" width="9" height="9" rx="1"/>
+    <rect x="197" y="102" width="18" height="9" rx="1"/>
+    <rect x="170" y="111" width="9" height="9" rx="1"/>
+    <rect x="188" y="111" width="9" height="9" rx="1"/>
+    <rect x="206" y="111" width="9" height="9" rx="1"/>
+    <rect x="170" y="120" width="18" height="9" rx="1"/>
+    <rect x="206" y="120" width="9" height="9" rx="1"/>
+    <rect x="170" y="129" width="9" height="9" rx="1"/>
+    <rect x="206" y="129" width="9" height="9" rx="1"/>
+    <rect x="179" y="138" width="27" height="9" rx="1"/>
+    <rect x="235" y="102" width="27" height="9" rx="1"/>
+    <rect x="226" y="111" width="9" height="9" rx="1"/>
+    <rect x="262" y="111" width="9" height="9" rx="1"/>
+    <rect x="226" y="120" width="9" height="9" rx="1"/>
+    <rect x="226" y="129" width="9" height="9" rx="1"/>
+    <rect x="262" y="129" width="9" height="9" rx="1"/>
+    <rect x="235" y="138" width="27" height="9" rx="1"/>
+    <rect x="282" y="84" width="9" height="9" rx="1"/>
+    <rect x="282" y="93" width="9" height="9" rx="1"/>
+    <rect x="282" y="102" width="9" height="9" rx="1"/>
+    <rect x="309" y="102" width="9" height="9" rx="1"/>
+    <rect x="282" y="111" width="9" height="9" rx="1"/>
+    <rect x="300" y="111" width="9" height="9" rx="1"/>
+    <rect x="282" y="120" width="18" height="9" rx="1"/>
+    <rect x="282" y="129" width="9" height="9" rx="1"/>
+    <rect x="300" y="129" width="9" height="9" rx="1"/>
+    <rect x="282" y="138" width="9" height="9" rx="1"/>
+    <rect x="309" y="138" width="9" height="9" rx="1"/>
+  </g>
+
+  <line x1="20" y1="174.5" x2="370" y2="174.5" stroke="var(--line)"/>
+
+  <text x="24" y="202" class="small green">$ ./status</text>
+  <text x="24" y="230" class="heading">Full-stack Helldiver</text>
+  <text x="24" y="253" class="body muted">deployed on the bug frontline</text>
+
+  <text x="24" y="287" class="small muted">mission</text>
+  <text x="122" y="287" class="small">squash bugs</text>
+  <text x="24" y="311" class="small muted">uptime</text>
+  <text x="122" y="311" class="small green">24/7</text>
+  <text x="24" y="335" class="small muted">timezone</text>
+  <text x="122" y="335" class="small yellow">UTC+7</text>
+
+  <line x1="20" y1="360.5" x2="370" y2="360.5" stroke="var(--line)"/>
+  <text x="24" y="389" class="small green">$ cat /etc/motd</text>
+  <text x="24" y="419" class="body">managed performance,</text>
+  <text x="24" y="440" class="body">unmanaged agents</text>
+  <rect x="154" y="429" width="8" height="14" rx="1" fill="var(--text)" opacity=".82"/>
+</svg>
