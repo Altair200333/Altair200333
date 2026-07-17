@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="./header.svg?v=2" alt="NE0CK — Full Stack Helldiver deployed on Bugs frontline" />
+  <img width="100%" src="https://raw.githubusercontent.com/Altair200333/Altair200333/dedf5e8d528718686d1507d30604b8975e8b3cbc/header.svg" alt="ne0ck — Full-stack Helldiver deployed on the bug frontline" />
 </p>
 
 ## Contributions
