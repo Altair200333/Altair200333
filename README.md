@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="./header.svg" alt="NE0CK — Full Stack Helldiver deployed on Bugs frontline" />
+  <img width="100%" src="./header.svg?v=2" alt="NE0CK — Full Stack Helldiver deployed on Bugs frontline" />
 </p>
 
 ## Contributions
