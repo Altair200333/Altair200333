@@ -118,5 +118,5 @@
   <line x1="20" y1="207.5" x2="810" y2="207.5" stroke="var(--line)"/>
   <text x="40" y="234" class="small green">$ cat /etc/motd</text>
   <text x="40" y="260" class="body">managed performance, unmanaged agents</text>
-  <rect x="333" y="249" width="8" height="14" rx="1" fill="var(--text)" opacity=".82"/>
+  <rect x="314" y="249" width="8" height="14" rx="1" fill="var(--text)" opacity=".82"/>
 </svg>
