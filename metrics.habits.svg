@@ -20,7 +20,7 @@
   </style>
 
   <text class="title" x="20" y="25">Recent coding habits</text>
-  <text class="muted" x="20" y="43">Last 30 days · 180 commits · 7 repositories</text>
+  <text class="muted" x="20" y="43">Last 30 days · 171 commits · 7 repositories</text>
 
   <text class="section" x="20" y="72">Commit activity per hour of day</text>
   <line class="axis" x1="24.0" y1="157.0" x2="460.0" y2="157.0"/>
@@ -46,16 +46,16 @@
 <rect class="bar" x="282.1" y="123.4" width="10.5" height="33.6" rx="2"><title>9 commits</title></rect>
 <rect class="bar" x="300.3" y="130.8" width="10.5" height="26.2" rx="2"><title>7 commits</title></rect>
 <text class="tick" x="305.6" y="174.0" text-anchor="middle">15</text>
-<rect class="bar" x="318.5" y="127.1" width="10.5" height="29.9" rx="2"><title>8 commits</title></rect>
-<rect class="bar" x="336.6" y="138.3" width="10.5" height="18.7" rx="2"><title>5 commits</title></rect>
+<rect class="bar" x="318.5" y="134.6" width="10.5" height="22.4" rx="2"><title>6 commits</title></rect>
+<rect class="bar" x="336.6" y="145.8" width="10.5" height="11.2" rx="2"><title>3 commits</title></rect>
 <rect class="bar" x="354.8" y="134.6" width="10.5" height="22.4" rx="2"><title>6 commits</title></rect>
 <text class="tick" x="360.1" y="174.0" text-anchor="middle">18</text>
-<rect class="bar" x="373.0" y="104.7" width="10.5" height="52.3" rx="2"><title>14 commits</title></rect>
+<rect class="bar" x="373.0" y="119.6" width="10.5" height="37.4" rx="2"><title>10 commits</title></rect>
 <rect class="bar" x="391.1" y="119.6" width="10.5" height="37.4" rx="2"><title>10 commits</title></rect>
 <rect class="bar" x="409.3" y="100.9" width="10.5" height="56.1" rx="2"><title>15 commits</title></rect>
 <text class="tick" x="414.6" y="174.0" text-anchor="middle">21</text>
 <rect class="bar" x="427.5" y="138.3" width="10.5" height="18.7" rx="2"><title>5 commits</title></rect>
-<rect class="bar" x="445.6" y="108.4" width="10.5" height="48.6" rx="2"><title>13 commits</title></rect>
+<rect class="bar" x="445.6" y="112.2" width="10.5" height="44.8" rx="2"><title>12 commits</title></rect>
 <text class="peak-value" x="269.2" y="81.0" text-anchor="middle">19</text>
 
   <text class="section" x="20" y="205">Commit activity per day of week</text>
@@ -68,7 +68,7 @@
 <text class="tick" x="179.7" y="302.0" text-anchor="middle">Tue</text>
 <rect class="bar peak" x="227.0" y="219.0" width="30.0" height="65.0" rx="2"><title>41 commits</title></rect>
 <text class="tick" x="242.0" y="302.0" text-anchor="middle">Wed</text>
-<rect class="bar" x="289.3" y="225.3" width="30.0" height="58.7" rx="2"><title>37 commits</title></rect>
+<rect class="bar" x="289.3" y="239.6" width="30.0" height="44.4" rx="2"><title>28 commits</title></rect>
 <text class="tick" x="304.3" y="302.0" text-anchor="middle">Thu</text>
 <rect class="bar" x="351.6" y="257.0" width="30.0" height="27.0" rx="2"><title>17 commits</title></rect>
 <text class="tick" x="366.6" y="302.0" text-anchor="middle">Fri</text>
